@@ -1,0 +1,6 @@
+# Navbar		:::	#393E46
+# Sidebar		:::	#393E46
+# Form Input	::: #00ADB5
+# Save Button	::: #F8B500
+# Div & Card & Shadow	::: #404d59
+

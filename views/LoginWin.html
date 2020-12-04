@@ -1,0 +1,124 @@
+﻿<html lang="tr">
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Ekip Panel | <b>Login</b></title>
+
+    <!-- Bootstrap CSS  -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
+    <!-- My CSS -->
+
+
+
+    <style>
+    </style>
+</head>
+<body>
+    <!-- #region App Navbar -->
+    <nav class="navbar navbar-light bg-dark" id="header">
+        <button class="btn btn-transparent border-0" id="documentLogoButton">
+            <img src="../assets/icon/win/app.ico" width="20" height="20" class="d-inline-block shadow-lg rounded rounded-circle h-100 hide" alt="" loading="lazy">
+            <i class="fa fa-bars d-inline-block shadow-lg rounded rounded-circle  h-100 text-white" style="font-size: 1.2rem"></i>
+        </button>
+        <ul class="documentLogoMenu">
+            <li class="documentLogoMenu-item" id="documentLogoMenu-item" menuID="1">
+                <a data-toggle="electron-href" data-href="views/MainWin.html">
+                    <i class="fa fa-dashboard"></i> Dashboard
+                    <span class="documentLogoMenu-item-accelerator"> Ctrl + N</span>
+                </a>
+            </li>
+            <li class="documentLogoMenu-item" id="documentLogoMenu-item" menuID="2">
+                <a href="#">
+                    Content 2 <span class="documentLogoMenu-item-accelerator"> Ctrl + R</span>
+                </a>
+                <ul class="documentLogoMenu-submenu" id="documentLogoMenu-submenu2">
+                    <li class="documentLogoMenu-submenu-item">
+                        <a href="#">
+                            SubMenu Content 2
+                            <span class="documentLogoMenu-item-submenu-accelerator">
+                                Ctrl + R
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="documentLogoMenu-item">
+                <a id="close" command="close" windows="main" title="Kapat">
+                    <i class="fa fa-times"></i> Çıkış <span class="documentLogoMenu-item-accelerator"> Ctrl + Q</span>
+                </a>
+            </li>
+        </ul>
+        <div id="dom-title" class="mb-0 text-center lead text-white windows-drag" style="">
+            <!-- Document Logo And Title -->
+        </div>
+        <div class="form-inline ">
+            <button data-toggle="electron-href" data-href="#" title="Kullanıcı Ayarları" class="bg-transparent  mr-1 border-0 btn btn-dark float-right " style="margin-right:-10px;">
+                <i class="fa fa-user"></i>
+            </button>
+            <button id="minimize" command="minimize" windows="main" title="Gizle" class="bg-transparent  mr-1 border-0 btn btn-dark float-right " style="margin-right:-10px;">
+                <i class="fa fa-minus"></i>
+            </button>
+            <button id="maximize" command="maximize" windows="main" title="Ortala" class="bg-transparent  mr-1 border-0 btn btn-dark float-right " style="margin-right:-10px;">
+                <i class="fa fa-square"></i>
+            </button>
+            <button id="close" command="close" windows="main" title="Kapat" class="bg-transparent  border-0 btn btn-dark float-right " style="margin-right:-10px;">
+                <i class="fa fa-times"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- #endregion -->
+
+    <div class="container-fluid">
+        <div class="appBackground"></div>
+        <!-- Container Row -->
+        <div class="row">
+
+            <div class="col-12 p-5">
+
+                <div class="card w-50 mx-auto">
+                    <div class="card-header">
+                        Giriş Yapın
+                    </div>
+                    <div class="card-body">
+                        <form action="#" method="post" class="form">
+                            <div class="form-group">
+                                <label for="exampleFormControlInputEmail" class="form-header">Email Adress</label>
+                                <input type="email" required class="form-control" id="exampleFormControlInputEmail" placeholder="username@example.com">
+                            </div>
+                            <div class="form-btn btn-group">
+                                <button type="reset" class="btn btn-outline-danger">
+                                    Reset
+                                </button>
+                                <button type="submit" class="btn btn-outline-success">
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- #region Javascript Links -->
+
+    <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/const.js"></script>
+    <script src="../assets/js/cssImport.js"></script>
+    <script src="../assets/js/jquery.session.js"></script>
+    <script src="../assets/js/LoginWin.js"></script>
+    <script src="../assets/js/General.js"></script>
+    <!-- #endregion -->
+
+
+</body>
+</html>

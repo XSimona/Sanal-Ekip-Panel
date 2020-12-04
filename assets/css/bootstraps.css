@@ -1,0 +1,178 @@
+﻿body {
+  background: url('../img/background/james-wheeler.jpg') center no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+/*#region Breadcrumb */
+
+.breadcrumb {
+  background-color: #404d59;
+  box-shadow: #808080 8px 6px 10px;
+  border-radius: 0;
+}
+
+.breadcrumb-item {
+  color: white !important;
+}
+
+  .breadcrumb-item + .breadcrumb-item:before {
+    color: #00ADB5;
+    font-weight: 400;
+  }
+/*#endregion */
+
+/*#region Card */
+
+.card {
+  background-color: #404d59;
+  border: 0;
+  border-radius: 0;
+}
+
+.card-header {
+  font-size: 1.25rem;
+  font-weight: 300;
+  border: 0;
+  color: white;
+  border-bottom: 1px solid #00ADB5;
+}
+
+.card-title {
+  color: white;
+  padding-bottom: 10px;
+}
+
+.card-text {
+  color: white;
+  padding-bottom: 10px;
+}
+
+.card-body {
+}
+
+.card-footer {
+  border-top: 0px;
+  background-color: transparent;
+  text-align: right;
+}
+/*#endregion */
+
+/*#region Label */
+
+label {
+  font-weight: 100;
+}
+
+/*#endregion */
+
+/*#region Form */
+
+.form-header{
+  color : white;
+  font-weight: 400;
+  text-shadow: 3px 3px 4.5px  #000;
+}
+
+.form-control {
+  background-color : transparent;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 2px groove #00ADB5;
+  color :white;
+}
+
+  .form-control::placeholder {
+    color: black;
+  }
+
+  .form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 3px solid red;
+    background-color: transparent;
+    color: white;
+  }
+  
+  .form-btn{
+    
+    padding: 0px;
+    margin: 0;
+    float: right;
+    background-origin: content-box;
+  }
+
+/*#endregion */
+
+/*#region Button */
+.btn {
+  margin: 5px !important;
+}
+  
+  .btn:hover {
+    box-shadow: #00ADB5 0px 4px 0px 1px !important;
+  }
+
+.btn-primary, .btn-outline-primary{
+  box-shadow: #007BFF8F -5px 5px 0px 0px !important;
+}
+
+  .btn-primary:hover, .btn-outline-primary:hover {
+    box-shadow: blue 0px 4px 0px 1px !important;
+  }
+
+.btn-danger, .btn-outline-danger {
+  box-shadow: #c8233373 -5px 5px 0px 0px !important;
+}
+
+  .btn-danger:hover, .btn-outline-danger:hover {
+    box-shadow: Red 0px 4px 0px 1px !important;
+  }
+
+.btn-warning, .btn-outline-warning {
+  box-shadow: #ffc1078a -5px 5px 0px 0px !important;
+}
+
+  .btn-warning:hover, .btn-outline-warning:hover {
+    color: white;
+    box-shadow: yellow 0px 4px 0px 1px !important;
+  }
+
+.btn-success, .btn-outline-success {
+  box-shadow: #28a74570 -5px 5px 0px 0px !important;
+}
+
+  .btn-success:hover,.btn-outline-success:hover {
+    box-shadow: green 0px 4px 0px 1px !important;
+  }
+
+.btn-info,.btn-outline-info {
+  box-shadow: #1384967d -5px 5px 0px 0px !important;
+}
+
+  .btn-info:hover, .btn-outline-info:hover {
+    box-shadow: aqua 0px 4px 0px 1px !important;
+  }
+
+
+
+/*#endregion */
+
+/*#region Jumbotron */
+
+.jumbotron {
+  background-color: #404d59;
+  padding: 25px;
+  color : white;
+  border: 0;
+  border-radius: 0;
+}
+.jumbotron-header{
+  font-weight : 300;
+}
+
+/*#endregion */

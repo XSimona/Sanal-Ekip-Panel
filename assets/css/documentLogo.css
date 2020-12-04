@@ -1,0 +1,84 @@
+﻿/*#region Document Logo Menu */
+
+
+.dom-logo {
+  width: 10%;
+  vertical-align: middle;
+}
+
+#documentLogoButton:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+
+.documentLogoMenu {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 225px;
+  background-color: #393E46 !important;
+  padding: 0px 0px 0px 0px;
+  list-style: none;
+  display: none;
+  z-index: 99;
+}
+
+.documentLogoMenu-item {
+  border-bottom: 1px solid white;
+  padding: 10px;
+  padding-left: 17px;
+}
+
+  .documentLogoMenu-item:hover {
+    cursor: pointer;
+  }
+
+  .documentLogoMenu-item > a {
+    color: white !important;
+  }
+
+  .documentLogoMenu-item > a {
+    text-decoration: none;
+  }
+
+    .documentLogoMenu-item > a > span {
+      float: right;
+      color: gray;
+      line-height: 30px;
+      font-size: 10px;
+    }
+
+.documentLogoMenu-submenu {
+  width: 100%;
+  padding-left: 0;
+  margin-top: 8px;
+  background-color: #343a40 !important;
+  list-style: none;
+  display: none;
+  border: 0px solid white;
+}
+
+.documentLogoMenu-submenu-item {
+  border-bottom: 1px solid white;
+  padding: 10px;
+  padding-left: 17px;
+  width: 100%;
+}
+
+  .documentLogoMenu-submenu-item > a {
+    color: white !important;
+  }
+
+    .documentLogoMenu-submenu-item > a:hover {
+      text-decoration: none;
+    }
+
+    .documentLogoMenu-submenu-item > a > span {
+      float: right;
+      color: gray;
+      line-height: 30px;
+      font-size: 10px;
+    }
+
+
+/*#endregion */

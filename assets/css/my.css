@@ -1,0 +1,91 @@
+html {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}
+
+body {
+  background-color: #393E46 !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.bg-dark {
+  background-color: #393E46 !important;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+ 
+
+
+.ftplist-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -5px;
+  display: table-cell;
+  padding: 5px;
+  width: 55%;
+  height: 50%;
+  border-radius: 100% !important;
+}
+
+.windows-drag {
+  /*    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-ed;
+    align-self: stretch;
+*/ -webkit-app-region: drag;
+}
+
+
+
+.absolute-bottom {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1020;
+  width: auto;
+}
+
+section.mainBrowser {
+  position: absolute;
+  top: 0px;
+  left: -30px;
+  right: 0;
+  width: 102.5%;
+  height: 100%;
+  z-index: 1;
+}
+
+
+/*#region App Background - Style */
+
+
+
+.appBackground {
+  background: url('../img/background/james-wheeler.jpg') center no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: 100vh;
+  opacity: 0.5;
+  z-index: -99;
+}
+
+
+/*#endregion */
+
+
+::-webkit-scrollbar {
+  display: none;
+}
