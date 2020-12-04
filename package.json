@@ -1,0 +1,35 @@
+{
+  "name": "sanal-ekip-panel",
+  "productName": "Sanal Ekip Panel Program",
+  "version": "1.0.0",
+  "description": "Test Uygulama",
+  "icon": "assets/icon/win/app.ico",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "packager": "electron-packager . Sanal-Ekip-Panel --out=Program/Win --asar --platform=win32 --arch=ia32 --icon=assets/icon/win/app.ico",
+    "package-mac": "electron-packager . --overwrite --asar --platform=darwin --arch=x64 --icon=assets/icon/mac/icon.icns --prune=true --out=release-builds",
+    "package-win": "electron-packager . --overwrite --platform=win32 --arch=ia32 --icon=assets/icon/win/app.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Sanal Ekip Panel Program\"",
+    "package-linux": "electron-packager . --overwrite --asar --platform=linux --arch=x64 --icon=assets/icon/png/1024x1024.png --prune=true --out=release-builds",
+    "create-installer-mac": "electron-installer-dmg ./release-builds/Electron\\ tutorial\\ app-darwin-x64/Electron\\ tutorial\\ app.app electron-tutorial-app --out=release-builds --overwrite --icon=assets/icon/mac/icon.icns",
+    "create-installer-win": "node installers/windows/createinstaller.js"
+
+  },
+  "author": "Phoenix",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "electron-packager": "^15.1.0",
+    "font-awesome": "^4.7.0",
+    "fs-extra": "^9.0.1",
+    "ftp": "^0.3.10",
+    "jquery": "^3.5.1",
+    "spin.js": "^4.1.0",
+    "tailwindcss": "^1.9.6"
+  },
+  "devDependencies": {
+    "electron": "^10.1.5",
+    "electron-builder": "^22.9.1",
+    "electron-winstaller": "^4.0.1"
+  }
+}
