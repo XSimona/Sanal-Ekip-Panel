@@ -1,1 +1,1 @@
-﻿# Sanal Ekip Panel - Electron Example
+﻿# Electron Test App - Electron Example
